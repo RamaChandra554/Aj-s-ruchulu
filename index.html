@@ -1,13 +1,195 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>emptyproject</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Krishna Jilla Ruchulu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo">KRISHNA JILLA RUCHULU</div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero wood-bg">
+    <div class="hero-content">
+      <h3>Authentic Telugu Style Cuisine</h3>
+      <h1>Welcome To <br> Krishna Jilla Ruchulu</h1>
+      <p>
+        Experience rich traditional recipes, village-style flavours,
+        premium wooden ambience and authentic Telugu culinary heritage
+        crafted with passion.
+      </p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <div class="section-title">
+      <h2>Our Special Dishes</h2>
+      <p>
+        Traditional recipes inspired by authentic Telugu flavours,
+        handcrafted spices and warm wooden dining ambience.
+      </p>
+    </div>
+
+    <div class="feature-grid">
+
+      <div class="feature-card">
+        <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?q=80&w=1200&auto=format&fit=crop" alt="Traditional Meals">
+        <div class="feature-content">
+          <h3>Traditional Meals</h3>
+          <p>Authentic meals prepared with village-style cooking methods and homemade spice blends.</p>
+          <a href="#menu" class="btn">Order Now</a>
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200&auto=format&fit=crop" alt="Premium Ambience">
+        <div class="feature-content">
+          <h3>Premium Ambience</h3>
+          <p>Elegant wooden interiors inspired by traditional Indian cafés and heritage restaurants.</p>
+          <a href="#contact" class="btn">Visit Us</a>
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1200&auto=format&fit=crop" alt="Fresh Ingredients">
+        <div class="feature-content">
+          <h3>Fresh Ingredients</h3>
+          <p>Every dish is made using fresh vegetables, authentic spices and rich Telugu flavours.</p>
+          <a href="#menu" class="btn">View Menu</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="wood-bg">
+    <div class="section-title">
+      <h2>Popular Menu</h2>
+      <p>Delicious traditional dishes prepared with authentic recipes and premium ingredients.</p>
+    </div>
+
+    <div class="menu-grid">
+
+      <div class="menu-card">
+        <h3>Breakfast</h3>
+        <div class="menu-item"><span>Idli &amp; Sambar</span><span class="price">₹50</span></div>
+        <div class="menu-item"><span>Masala Dosa</span><span class="price">₹90</span></div>
+        <div class="menu-item"><span>Poori Curry</span><span class="price">₹80</span></div>
+        <div class="menu-item"><span>Filter Coffee</span><span class="price">₹40</span></div>
+      </div>
+
+      <div class="menu-card">
+        <h3>Main Course</h3>
+        <div class="menu-item"><span>Andhra Meals</span><span class="price">₹180</span></div>
+        <div class="menu-item"><span>Chicken Biryani</span><span class="price">₹240</span></div>
+        <div class="menu-item"><span>Mutton Curry</span><span class="price">₹320</span></div>
+        <div class="menu-item"><span>Paneer Butter Masala</span><span class="price">₹220</span></div>
+      </div>
+
+      <div class="menu-card">
+        <h3>Beverages</h3>
+        <div class="menu-item"><span>Madras Filter Coffee</span><span class="price">₹60</span></div>
+        <div class="menu-item"><span>Badam Milk</span><span class="price">₹90</span></div>
+        <div class="menu-item"><span>Mango Lassi</span><span class="price">₹120</span></div>
+        <div class="menu-item"><span>Chocolate Milkshake</span><span class="price">₹140</span></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="about-wrapper">
+
+      <div class="about-img">
+        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1200&auto=format&fit=crop" alt="Restaurant Interior">
+      </div>
+
+      <div class="about-content">
+        <h2>Inspired By Traditional Indian Heritage</h2>
+        <p>
+          Krishna Jilla Ruchulu combines authentic Telugu flavours,
+          premium wooden interiors and elegant modern dining aesthetics.
+        </p>
+        <p>
+          Every section of the restaurant experience is designed to reflect
+          traditional culture, warm hospitality and handcrafted culinary excellence.
+        </p>
+        <a href="#contact" class="btn">Read More</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="wood-bg">
+    <div class="section-title">
+      <h2>Food Gallery</h2>
+      <p>Rich flavours, authentic Telugu dishes and premium food presentation.</p>
+    </div>
+
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=1200&auto=format&fit=crop" alt="Food 1">
+      <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=1200&auto=format&fit=crop" alt="Food 2">
+      <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=1200&auto=format&fit=crop" alt="Food 3">
+      <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=1200&auto=format&fit=crop" alt="Food 4">
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="wood-bg">
+    <div class="section-title">
+      <h2>Visit Us</h2>
+      <p>Experience traditional hospitality and authentic Telugu flavours in a premium ambience.</p>
+    </div>
+
+    <div class="contact-wrapper">
+
+      <div class="contact-card">
+        <h3>Location</h3>
+        <p>Krishna Jilla Ruchulu<br>Main Road<br>Andhra Pradesh</p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Opening Hours</h3>
+        <p>Monday - Sunday<br>7:00 AM - 11:00 PM</p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Contact</h3>
+        <p>+91 98765 43210<br>info@krishnajillaruchulu.com</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <h2>Krishna Jilla Ruchulu</h2>
+    <p>Authentic Telugu Cuisine</p>
+    <p>Traditional Flavours • Premium Ambience • Heritage Dining</p>
+    <div class="footer-line">© 2026 Krishna Jilla Ruchulu. All Rights Reserved.</div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
 </html>
