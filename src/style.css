@@ -41,16 +41,53 @@ section {
 }
 
 /* =========================
-   WOOD TEXTURE BACKGROUND
+   CSS WOOD GRAIN TEXTURE
 ========================== */
 
 .wood-bg {
-  background:
-    linear-gradient(rgba(15, 7, 3, .88), rgba(15, 7, 3, .88)),
-    url('https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1800&auto=format&fit=crop');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: #1c0e06;
+  background-image:
+    repeating-linear-gradient(
+      92deg,
+      transparent 0px,
+      rgba(90, 45, 10, .08) 1px,
+      transparent 2px,
+      transparent 6px,
+      rgba(60, 28, 5, .06) 7px,
+      transparent 8px,
+      transparent 14px,
+      rgba(110, 55, 12, .05) 15px,
+      transparent 16px,
+      transparent 22px
+    ),
+    repeating-linear-gradient(
+      89deg,
+      transparent 0px,
+      rgba(80, 38, 8, .07) 2px,
+      transparent 4px,
+      transparent 10px,
+      rgba(50, 22, 4, .05) 11px,
+      transparent 13px,
+      transparent 20px
+    ),
+    repeating-linear-gradient(
+      91deg,
+      transparent 0px,
+      rgba(120, 60, 15, .04) 3px,
+      transparent 5px,
+      transparent 18px,
+      rgba(70, 32, 6, .06) 19px,
+      transparent 21px,
+      transparent 35px
+    ),
+    linear-gradient(
+      180deg,
+      #2a1408 0%,
+      #1c0d06 30%,
+      #221108 60%,
+      #1a0c05 100%
+    );
+  background-size: 400px 100%, 300px 100%, 600px 100%, 100% 100%;
 }
 
 /* =========================
@@ -207,12 +244,39 @@ nav {
 ========================== */
 
 .features {
-  background:
-    linear-gradient(rgba(20, 10, 5, .93), rgba(20, 10, 5, .93)),
-    url('https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1800&auto=format&fit=crop');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: #160a04;
+  background-image:
+    repeating-linear-gradient(
+      88deg,
+      transparent 0px,
+      rgba(100, 50, 10, .07) 1px,
+      transparent 3px,
+      transparent 9px,
+      rgba(65, 30, 6, .05) 10px,
+      transparent 12px,
+      transparent 20px,
+      rgba(85, 40, 8, .04) 21px,
+      transparent 23px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      91deg,
+      transparent 0px,
+      rgba(75, 35, 7, .06) 2px,
+      transparent 4px,
+      transparent 13px,
+      rgba(55, 25, 5, .05) 14px,
+      transparent 16px,
+      transparent 26px
+    ),
+    linear-gradient(
+      180deg,
+      #1e0d05 0%,
+      #160a04 40%,
+      #1c0c05 70%,
+      #160a04 100%
+    );
+  background-size: 350px 100%, 500px 100%, 100% 100%;
 }
 
 .feature-grid {
@@ -310,12 +374,39 @@ nav {
 ========================== */
 
 .about {
-  background:
-    linear-gradient(rgba(18, 10, 5, .95), rgba(18, 10, 5, .95)),
-    url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1800&auto=format&fit=crop');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: #180b04;
+  background-image:
+    repeating-linear-gradient(
+      93deg,
+      transparent 0px,
+      rgba(95, 48, 10, .07) 1px,
+      transparent 2px,
+      transparent 8px,
+      rgba(60, 27, 5, .05) 9px,
+      transparent 11px,
+      transparent 17px,
+      rgba(105, 52, 11, .04) 18px,
+      transparent 20px,
+      transparent 28px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent 0px,
+      rgba(70, 33, 7, .06) 2px,
+      transparent 4px,
+      transparent 12px,
+      rgba(45, 20, 4, .05) 13px,
+      transparent 15px,
+      transparent 24px
+    ),
+    linear-gradient(
+      180deg,
+      #200e05 0%,
+      #180b04 35%,
+      #1e0d05 65%,
+      #180b04 100%
+    );
+  background-size: 450px 100%, 280px 100%, 100% 100%;
 }
 
 .about-wrapper {
