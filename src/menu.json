@@ -1,0 +1,108 @@
+[
+  {
+    "category": "Coffee",
+    "icon": "☕",
+    "items": [
+      { "name": "Filter Coffee", "price": 25 },
+      { "name": "Premium Coffee", "price": 40 },
+      { "name": "Sukku Coffee", "price": 40 },
+      { "name": "Black Coffee", "price": 30 }
+    ]
+  },
+  {
+    "category": "Hot Milk",
+    "icon": "🥛",
+    "items": [
+      { "name": "Hot Milk", "price": 20 },
+      { "name": "Sukku Milk", "price": 30 },
+      { "name": "Horlicks / Boost", "price": 30 },
+      { "name": "Badam Milk / Ragi Malt", "price": 30 },
+      { "name": "Hot Chocolate", "price": 40 }
+    ]
+  },
+  {
+    "category": "Tea",
+    "icon": "🍵",
+    "items": [
+      { "name": "Sp. Tea (Elaichi)", "price": 20 },
+      { "name": "Badam Tea", "price": 30 },
+      { "name": "Lemon Tea", "price": 30 },
+      { "name": "Green Tea", "price": 30 },
+      { "name": "Spl. Masala Green Tea", "price": 25 },
+      { "name": "Black Tea", "price": 25 },
+      { "name": "Thatti Bellam Tea", "price": 30 }
+    ]
+  },
+  {
+    "category": "Special Milk",
+    "icon": "🌹",
+    "items": [
+      { "name": "Spl. Rose Milk", "price": 80 },
+      { "name": "Spl. Badam Milk", "price": 80 },
+      { "name": "Spl. Pista Milk", "price": 80 }
+    ]
+  },
+  {
+    "category": "Cold Coffee",
+    "icon": "🧊",
+    "items": [
+      { "name": "Cold Coffee", "price": 140 },
+      { "name": "Chocolate Cold Coffee", "price": 150 },
+      { "name": "Caramel Cold Coffee", "price": 150 },
+      { "name": "Nutella Cold Coffee", "price": 150 }
+    ]
+  },
+  {
+    "category": "Milkshakes",
+    "icon": "🥤",
+    "items": [
+      { "name": "Chocolate Milkshake", "price": 140 },
+      { "name": "Oreo Milkshake", "price": 150 },
+      { "name": "Kit Kat Milkshake", "price": 150 },
+      { "name": "Raspberry Milkshake", "price": 150 },
+      { "name": "Mango Milkshake", "price": 140 },
+      { "name": "Strawberry Milkshake", "price": 140 },
+      { "name": "Badam Milkshake", "price": 140 },
+      { "name": "Black Current Milkshake", "price": 140 },
+      { "name": "Blue Berry Milkshake", "price": 140 },
+      { "name": "Spl. Rose Milkshake", "price": 140 },
+      { "name": "Spl. Pista Milkshake", "price": 150 },
+      { "name": "Kiwi Milkshake", "price": 150 }
+    ]
+  },
+  {
+    "category": "Thick Shakes",
+    "icon": "🍌",
+    "items": [
+      { "name": "Chunky Banana Thick Shake", "price": 240 },
+      { "name": "Rose Falooda Thick Shake", "price": 240 },
+      { "name": "Tiramisu Drizzle Thick Shake", "price": 240 },
+      { "name": "Belgium Chocolate Thick Shake", "price": 240 }
+    ]
+  },
+  {
+    "category": "Lassi",
+    "icon": "🍶",
+    "items": [
+      { "name": "Sweet Lassi", "price": 60 },
+      { "name": "Chocolate Lassi", "price": 70 },
+      { "name": "Black Current Lassi", "price": 70 },
+      { "name": "Strawberry Lassi", "price": 70 },
+      { "name": "Mango Lassi", "price": 70 }
+    ]
+  },
+  {
+    "category": "Fresh Juices & Mocktails",
+    "icon": "🍋",
+    "items": [
+      { "name": "Masala Lemonade", "price": 90 },
+      { "name": "Tango Mango", "price": 90 },
+      { "name": "Kala Khatta Slush", "price": 90 },
+      { "name": "Chilli Guava Squash", "price": 90 },
+      { "name": "Watermelon Slush", "price": 100 },
+      { "name": "Green Apple", "price": 100 },
+      { "name": "Virgin Mojito", "price": 100 },
+      { "name": "Ocean Blue", "price": 100 }
+    ]
+  }
+]
